@@ -9,6 +9,11 @@ function webkit_xpcom(){
         gSTB.StandBy(par);
 
         if (gSTB.SetLedIndicatorMode){
+            if (par){
+                gSTB.ExecAction('front_panel led-on');
+            }else{
+                gSTB.ExecAction('front_panel led-off');
+            }
             gSTB.SetLedIndicatorMode(par ? 2 : 1);
         }
 
