@@ -1,0 +1,149 @@
+body{
+	font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 25px;
+
+}
+.main_menu {
+	display: block;
+    background-image: url("../../../c/i_720/bg.png");	
+}
+
+#unutra{
+	top:500px;
+	position:absolute;
+	left:200px;
+	float: left;
+	display:inline;
+	background: #8B754C;
+	margin: 0 auto;
+	text-align: center;
+  /* border-radius */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* box-shadow */
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  height: 30px;
+  width: 880px;
+  padding: 30px;
+}
+
+#goredesno{
+	top: 130px;
+	position: absolute;
+	left: 985px;
+	float: left;
+	width: 250px;
+	display:inline;
+	background: #8B754C;
+	margin: 0 auto;
+	text-align: center;
+  /* border-radius */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* box-shadow */
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;	
+  height: 120px;
+}
+
+#spol {
+	display:inline;
+}
+#name {
+	display:inline;
+}
+
+#soba {
+	display:inline;
+}
+
+#login {
+	display:inline;
+}
+
+#password {
+	display:inline;
+}
+
+
+#gumbplavi {
+position: absolute;
+top: 615px;
+left: 210px;
+display: table;
+width: 270px;
+}
+
+
+#but4 {
+background-image: url('../images/BLUE.png');
+width: 85px;
+height: 58px;
+display: table-cell;
+}
+
+#but4text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+}
+
+#gumbmenu {
+position: absolute;
+top: 615px;
+left: 610px;
+display: table;
+width: 390px;
+}
+
+
+#butmenu {
+height: 58px;
+-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background-color:#050505;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+display: table-cell;
+}
+
+#butmenutext{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middlel;
+	color: white;
+}
+
+.tv_prev_window {
+position: absolute;
+background: url("../../../c/i_720/tv_prev_bg.png");
+height: 330px;
+width: 579px;
+/* top: 83px; */
+top: 130px;
+left: 350px;
+padding: 5px;
+}
+
+.color_button_bar {
+	top: 625px !important;
+
+}

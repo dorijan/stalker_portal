@@ -1,0 +1,419 @@
+body {
+	background-image: url(../../../c/i_720/bg.png);
+	background-repeat:no-repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#000000;
+	overflow:hidden;	
+}
+
+.layer_bg {
+	background-image: url(../../../c/i_720/bg.png) no-repeat !important;
+}
+
+
+#sastrane2 {
+top: 500px;
+position: absolute;
+left: 200px;
+float: left;
+display: inline;
+background: #8B754C;
+margin: 0 auto;
+text-align: center;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+height: 30px;
+width: 880px;
+padding: 30px;
+opacity: 0.5;
+}
+#sastrane{
+top: 500px;
+position: absolute;
+left: 200px;
+float: left;
+display: inline;
+margin: 0 auto;
+text-align: center;
+height: 30px;
+width: 880px;
+padding: 30px;
+	opacity: 1;
+	font-size: 25px;
+	font-weight: bold;
+	color: #001a33;
+}
+#bathstatus {
+top: 130px;
+position: absolute;
+left: 730px;
+float: left;
+display: inline;
+background: #8B754C;
+margin: 0 auto;
+text-align: center;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+height: 50px;
+width: 420px;
+padding: 30px;
+opacity: 0.5;
+}
+
+#bathstatus2 {
+top: 130px;
+position: absolute;
+left: 730px;
+float: left;
+display: inline;
+margin: 0 auto;
+#text-align: center;
+height: 50px;
+width: 420px;
+padding: 7px;
+opacity: 1;
+font-weight: bold;
+font-size: 24px;
+color:white;
+}
+
+
+
+
+#roomstatus {
+top: 285px;
+position: absolute;
+left: 730px;
+float: left;
+display: inline;
+background: #8B754C;
+margin: 0 auto;
+text-align: center;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+height: 110px;
+width: 420px;
+padding: 30px;
+opacity: 0.5;
+}
+
+#roomstatus2 {
+top: 285px;
+position: absolute;
+left: 730px;
+float: left;
+display: inline;
+margin: 0 auto;
+#text-align: center;
+height: 110px;
+width: 420px;
+padding: 7px;
+opacity: 1;
+font-weight: bold;
+font-size: 24px;
+color:white;
+}
+
+
+.content{
+background-color:black;
+color:white;
+position:absolute;
+ top:2;
+ left:2;
+}
+
+.temperatura{
+ position:absolute;
+ top:268;
+ left:1100;
+font-family:Arial;
+ font-size:small;  
+}
+.weather{
+ position:absolute;
+ top:45;
+ left:1000;
+font-family:Arial; 
+	color:#ffffff;
+}
+.weather_ico{
+ position:absolute;
+ top:45;
+ left:940;
+}
+
+.a_up{
+ position:absolute;
+ top:340;
+ left:500;
+
+ width:32px;
+ height:32px;  
+}
+
+.a_sred{
+# position:absolute;
+# top:540;
+# left:695;
+# font-size:large;
+# color: black;
+# width: 235px;
+}
+
+.datum{
+ position:absolute;
+ top:53;
+ left:1140;
+ font-size:large;
+ color: white;
+ width:120px; 
+}
+
+.a_down{
+ position:absolute;
+ top:400;
+ left:500;
+# background-image:url('../imgroom/arrow_down.png');
+ width:32px;
+ height:32px;  
+}
+
+.light{
+ position:absolute;
+ top:525;
+ left:510;
+# background-image:url('imgroomn/light_off.png');
+ width:140px;
+ height:140px;  
+}
+
+.but1{
+ position:absolute;
+ top:657;
+ left:160;
+ background-image:url('../imgroomn/RED.png');
+ width:85px;
+ height:75px;  
+}
+
+.but1{
+ position:absolute;
+ top:657;
+ left:160;
+ background-image:url('../imgroomn/RED.png');
+ width:85px;
+ height:75px;  
+}
+
+.but2{
+ position:absolute;
+ top:657;
+ left:290;
+ background-image:url('../imgroomn/GREEN.png');
+ width:85px;
+ height:75px;  
+}
+
+
+.but3{
+ position:absolute;
+ top:657;
+ left:420;
+ background-image:url('../imgroomn/YELLOW.png');
+ width:85px;
+ height:75px;  
+}
+
+.but4{
+ position:absolute;
+ top:657;
+ left:550;
+ background-image:url('../imgroomn/BLUE.png');
+ width:85px;
+ height:75px;  
+}
+
+.but5{
+ position:absolute;
+ top:657;
+ left:657;
+ background-image:url('../imgroomn/UP.png');
+ width:85px;
+ height:75px;  
+}
+
+.but6{
+ position:absolute;
+ top:657;
+ left:720;
+ background-image:url('../imgroomn/DOWN.png');
+ width:85px;
+ height:75px;  
+}
+
+
+.power{
+ position:absolute;
+ top:110;
+ left:350;
+# background-image:url('../imgroom/power_on.png');
+ width:60px;
+ height:60px;  
+}
+
+.card{
+# position:absolute;
+# top:248;
+# left:1100;
+ width:16px;
+ height:16px;  
+}
+
+.door{
+# position:absolute;
+# top:308;
+# left:1100;
+ width:16px;
+ height:16px;  
+}
+
+.light2{
+ position:absolute;
+ top:290;
+ left:1100;
+ width:16px;
+ height:16px;  
+}
+
+
+.hotel{
+ position:absolute;
+ top:35;
+ left:285;
+ background-image:url(../imgroomn/malin.png);
+ width:291px;
+ height:150px;
+}
+
+.room{
+#position: absolute;
+#top: 43px;
+#left: 1150px;
+#width: 80px;
+font-family: Arial;
+font-size: 25px;
+color: #ccd6de;
+}
+
+.maid{
+ position:absolute;
+ top:525;
+ left:400;
+ width:125px;
+ height:140px;  
+}
+
+.sos{
+ position:absolute;
+ top:525;
+ left:130;
+ width:140px;
+ height:140px;  
+}
+
+.tempicon{
+ position:absolute;
+ top:530;
+ left:650;
+ background-image:url('../imgroomn/temperature.png');
+ width:140px;
+ height:140px;  
+}
+
+.door2{
+ position:absolute;
+ top:528;
+ left:260;
+
+ width:140px;
+ height:140px;  
+}
+
+.sobasl{
+ position:absolute;
+ top:200;
+ left:130;
+ background-image:url('../imgroomn/Soba_dan.png');
+ width:700px;
+ height:324px;
+}
+
+
+.roomstat{
+ position:absolute;
+ top:200;
+ left:915;
+ background-image:url('../imgroomn/room_stat.png');
+ width:240px;
+ height:300px;
+}
+
+
+#tempsobe{
+#	position: absolute;
+#	top: 65px;
+#	left: 185px;
+# color: black;
+# width: 235px;
+}
+
+.main_menu_date_bar {
+position: absolute;
+width: 550px;
+top: 38px;
+left: 690px;
+font-family: "Myriad Pro Cond", serif;
+}
+
+.main_menu_date {
+font-family: "Trebuchet ms", serif;
+font-weight: bold;
+font-size: 22px;
+color: #99a8b5;
+}
+
+.main_menu_time {
+font-weight: bold;
+font-size: 34px;
+color: #ccd6de;
+margin-left: 12px;
+/* margin-right: 65px; */
+}
+
+
+.color_button_bar {
+	top: 625px !important;
+
+}
+
+
+.active_row_bg {
+	padding: 10px 0 0 13px !important;
+
+}

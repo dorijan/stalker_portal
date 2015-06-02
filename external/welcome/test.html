@@ -1,0 +1,41 @@
+<html> 
+ <head> 
+ <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"> 
+ <title></title> 
+ <script language="JavaScript" src="event.js"></script> 
+ <script> 
+	var stb = gSTB;
+	function init(){ 
+		stb.InitPlayer();
+		stb.Play('http://10.168.192.2:8080/Stream/TV?item=26&transcoder=Direct&continuationId=playlist-91635');
+	} 
+	function getkeydown(e) { 
+		netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect"); 
+		ec = e.keyCode;
+		ew = e.which; 
+		es = e.shiftKey ;
+		pat = /^(\S+)_(\S+)/;
+		switch (ew){ 
+			case 114: // Play 
+			{ 
+				stb.Play('http://10.168.192.2:8080/Stream/TV?item=26&transcoder=Direct&continuationId=playlist-91635') ;
+				break; 
+			} 
+			case 115: // Stop 
+			{ 
+				stb.Stop(); 
+				break; 
+			} 
+		} 
+	} 
+ </script> 
+ <body onload="init()" onKeyPress="getkeydown(event)"> 
+  <div class="main_menu" style="display: block;">
+	
+		<div id="unutra" style="top:200px;position:absolute;left:200px;">
+			PAS KOST
+		</div>
+	
+	</div>
+ </body> 
+</html>
