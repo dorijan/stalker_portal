@@ -11,6 +11,53 @@ function watchdog(){
     this.running = false;
 }
 
+function loadXMLDoccc()
+{
+	var xmlhttp;
+	xmlhttp=new XMLHttpRequest();
+	xmlhttp.onreadystatechange=function()
+	{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			_debug("XMLresponse:"+xmlhttp.responseText);
+			if (xmlhttp.responseText=="welcome"){
+				stb.Stop();
+				stb.StandBy(false);
+				stb.ExecAction('front_panel led-off');				
+				_debug("redirecting to home page");			
+				window.location.href = "/stalker_portal/external/welcome2/index.php"
+			
+			};
+			if (xmlhttp.responseText=="on"){
+				_debug("on");						
+				stb.StandBy(false);
+				stb.ExecAction('front_panel led-off');				
+			
+			};
+			if (xmlhttp.responseText=="off"){
+				_debug("off");
+				stb.Stop();
+				stb.StandBy(true);			
+				stb.ExecAction('front_panel led-on');
+			};
+			if (xmlhttp.responseText=="alarm"){
+				stb.Stop();
+				stb.StandBy(false);
+				stb.ExecAction('front_panel led-off');				
+				_debug("redirecting to home page");
+				window.location.href = "/stalker_portal/external/alarm/index.php"
+			
+			};
+
+			
+		}
+	}
+	xmlhttp.open("GET","/stalker_portal/external/welcome/vratipodatke.php?sta=js",true);
+	xmlhttp.send();	
+}
+
+
+
 watchdog.prototype.run = function(timeout, timeslot){
     _debug('watchdog.run', timeout, timeslot);
 
@@ -82,7 +129,7 @@ watchdog.prototype.send_request = function(init){
     _debug('cur_play_type', cur_play_type);
 
     _debug('now', new Date() + " " + new Date().getMilliseconds() + "ms");
-
+	loadXMLDoccc(); 
     stb.load(
         {
             "type"            : "watchdog",

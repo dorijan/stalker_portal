@@ -310,12 +310,12 @@
 				});
 
 				//spremacica
-				$.get("../welcome/vratipodatke.php?sta=Status&trebam=10", function(respons) {
+				$.get("../welcome/vratipodatke.php?sta=Status&trebam=8", function(respons) {
 					$('#roomsrvimg').attr("src",respons);
 				});				
 
 				//staff - room service
-				$.get("../welcome/vratipodatke.php?sta=Status&trebam=8", function(respons) {
+				$.get("../welcome/vratipodatke.php?sta=Status&trebam=10", function(respons) {
 					$('#maidimg').attr("src",respons);
 				});
 				
