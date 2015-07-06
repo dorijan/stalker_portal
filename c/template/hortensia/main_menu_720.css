@@ -20,7 +20,7 @@
     font-family: "Trebuchet ms", serif;
     font-weight: bold;
     font-size: 22px;
-    color: #99a8b5;
+    color: #3A74A1;		
 }
 
 .main_menu_time{
@@ -28,6 +28,7 @@
     font-size: 34px;
     color: #ccd6de;
     margin-left: 12px;
+    color: #3A74A1;		
     /*margin-right: 65px;*/
 }
 

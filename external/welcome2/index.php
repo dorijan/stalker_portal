@@ -13,7 +13,11 @@ initLocale();
         <title><? echo _("Welcome"); ?></title>
 
         <link rel="stylesheet" href="css/main.css">
-
+		<style>
+		.container {
+			background: #583f32 url(<? echo $pathdoslika; ?>bg3.png) no-repeat top left;
+		}
+		</style>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 		<script language="JavaScript" src="../welcome/js/base-funcs.js"></script>
 		<script language="JavaScript" src="../welcome/js/variables.js"></script> 

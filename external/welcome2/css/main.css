@@ -659,7 +659,7 @@ h2 {
   color: #fff;
 }
 .info .message {
-  color: #9a8b84;
+  color: #4466FF;
 }
 .info .left {
   float: left;
@@ -668,7 +668,7 @@ h2 {
   color: #fff;
 }
 .info .left span {
-  color: #9a8b84;
+  color: #4466FF;
 }
 
 /* ==========================================================================
@@ -774,7 +774,7 @@ h2 {
   margin-bottom: 27px;
 }
 .mode .mode-btn.active {
-  background-color: #9a8b84;
+  background-color: #4466FF;
   color: #583f32;
 }
 

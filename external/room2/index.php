@@ -9,13 +9,18 @@ initLocale();
         <title><? echo _("Room"); ?></title>
 
         <link rel="stylesheet" href="../welcome2/css/main.css">
-
+		<style>
+		.container {
+			background: #583f32 url(<? echo $pathdoslika; ?>bg3.png) no-repeat top left;
+		}
+		</style>
         <script src="../welcome2/js/vendor/modernizr-2.6.2.min.js"></script>
 		<script type="text/javascript" src="../welcome/js/base-funcs.js"></script>
 		<script language="JavaScript" src="../welcome/js/variables.js"></script> 
 		<script language="JavaScript" src="../welcome/js/egSTB.js"></script> 
-		<script> var adresaportala="<? echo $adresaportala; ?>";</script>
+		<script> var adresaportala="<? echo $adresaportala; ?>";</script>				
         <script src="js/moje.js?nekaj=7"></script>		
+
     </head>
     <body onload="init()" onKeyPress="getkeydown(event)">
 
